@@ -1,0 +1,12 @@
+<div class="showArticle" *ngIf="articleChosen.articleNum != -1">
+  <p>
+    <strong>Article type: </strong>{{articleArray[articleChosen.articleNum].article_type}}
+  </p>
+  <p><strong>
+    Author display: 
+  </strong></p>
+  <ul>
+    <li *ngFor="let author of articleArray[articleChosen.articleNum].author_display">{{author}}</li>
+  </ul>
+  <p><strong>Score: </strong> {{articleArray[articleChosen.articleNum].score}}</p>
+</div>

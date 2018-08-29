@@ -1,0 +1,8 @@
+table{
+    display: inline-block;
+    width:50%;
+}
+tbody{
+    display: inline-table;
+    width: 100%;
+}

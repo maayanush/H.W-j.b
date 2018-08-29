@@ -1,0 +1,8 @@
+<table class="table table-striped">
+  <tr>
+    <th scope="col">article type</th>
+  </tr>
+  <tr *ngFor="let x of listArticle">
+    <td><a (click)="showArticleEvent(x.article_type)">{{x.article_type}}</a></td>
+  </tr>
+</table>
